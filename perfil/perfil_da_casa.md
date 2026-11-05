@@ -29,6 +29,7 @@ Apague ou acrescente linhas à vontade.
 
 - Enquanto o vídeo está em construção: voz-guia grátis do sistema (no macOS a Luciana; no Windows a Microsoft Maria; no Linux o espeak-ng).
 - Voz final: ElevenLabs, na **sua** conta, com a chave e a voz no `.env` (`ELEVENLABS_API_KEY` e `ELEVENLABS_VOZ_ID`). Voz escolhida: ________ (em branco: a voz-guia vai até o fim, e o agente pergunta antes da voz final).
+- **Narração: peça o áudio à pessoa.** Depois que o roteiro for aprovado, peça a gravação da narração (o `voz/` do projeto) antes do rascunho, em vez de usar a voz-guia robótica. Ela só vale como marcação de tempo enquanto o áudio não chega. (Pedido do aprovador, 05/11/2026, depois do vídeo `terra_parada`.)
 - A voz paga entra só no fim, depois do rascunho aprovado.
 - Música: nenhuma (fundo tonal do kit). Para usar a sua, ponha o arquivo na pasta do projeto e `"musica": { "arquivo": "..." }` no plano.
 
