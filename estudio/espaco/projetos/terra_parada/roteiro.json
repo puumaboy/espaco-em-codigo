@@ -19,7 +19,7 @@
   { "id": "B4", "pausa": 0.4, "pedacos": ["E o mar|agua,seta", "ia seguir em frente,|agua,seta", "terra adentro.|agua,terra"] },
   { "id": "C1", "pausa": 0.3, "pedacos": ["Depois, a água|agua,polos", "escorreria para|agua,polos", "os *polos*.|agua,polos"] },
   { "id": "C2", "pausa": 0.3, "pedacos": ["Porque o giro|terra,agua", "incha a Terra|terra,inchaco", "no equador, uns|terra,inchaco", "vinte e um quilômetros.|terra,inchaco"] },
-  { "id": "D1", "pausa": 0.4, "pedacos": ["E o dia?|sol,terra", "Ia durar um *ano*:|sol,terra", "seis meses de luz,|sol,terra", "seis de *noite*.|sol,terra"] },
+  { "id": "D1", "pausa": 0.4, "pedacos": ["E o dia?|sol,terra", "Ia durar um *ano*:|sol,terra", "seis meses de luz,|sol,terra", "seis de *noite*.|terra"] },
   { "id": "Q1", "pausa": 0.2, "pedacos": ["Você aguentaria|terra", "uma noite de|terra", "seis meses?|terra"] }
  ]
 }

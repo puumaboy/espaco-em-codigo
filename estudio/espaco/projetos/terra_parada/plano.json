@@ -1,164 +1,510 @@
 {
- "titulo": "E se o Sol apagasse?",
+ "titulo": "E se a Terra parasse de girar?",
  "estilo": "vivo",
  "cauda": 1.7,
+ "luz": [
+  1,
+  0.15,
+  0.6
+ ],
  "objetos": {
-  "sol": {
-   "corpo": "estrelaG",
+  "terra": {
+   "corpo": "terra",
    "pos": [
     0,
     0,
     0
    ],
-   "raio": 1.6,
-   "halo": 5,
-   "marcador": true,
-   "brilho": [
+   "raio": 1,
+   "giro_inicial": -35,
+   "giro": [
     {
-     "de": "A1:apagasse",
-     "ate": "A1.fim",
-     "para": 0.08
+     "de": "inicio",
+     "ate": "B1.fim",
+     "para": 35,
+     "curva": "linear"
     }
    ]
   },
-  "terra": {
-   "corpo": "terra",
-   "pos": [
-    9,
-    0,
-    4
-   ],
-   "raio": 0.45,
-   "marcador": true
+  "pino": {
+   "tipo": "pino",
+   "em": "terra",
+   "lat": 0,
+   "lon": 0,
+   "tamanho": 0.1
   },
-  "caminho": {
+  "seta": {
+   "tipo": "seta",
+   "de": [
+    -0.75,
+    0,
+    1.3
+   ],
+   "para": [
+    0.75,
+    0,
+    1.3
+   ],
+   "pos": [
+    0,
+    0,
+    1.3
+   ],
+   "raio": 0.75,
+   "largura": 0.07,
+   "cor": "#FFC857",
+   "desenha": [
+    "A2.2",
+    "A2.2.fim"
+   ],
+   "mostrar": [
+    [
+     "A2.2",
+     "B4.fim"
+    ]
+   ]
+  },
+  "ar": {
+   "tipo": "casca",
+   "em": "terra",
+   "raio": 1.1,
+   "cor": "#8FC1FF",
+   "opacidade": 0.22,
+   "borda": true,
+   "mostrar": [
+    [
+     "A3-0.2",
+     "fim"
+    ]
+   ]
+  },
+  "agua": {
+   "tipo": "casca",
+   "em": "terra",
+   "raio": 1.035,
+   "cor": "#2B73E0",
+   "opacidade": 0.55,
+   "esticar": 1,
+   "aponta": [
+    0,
+    100,
+    0
+   ],
+   "esticar_ao_longo": [
+    {
+     "de": "C1",
+     "ate": "C1.fim",
+     "para": 1.3
+    }
+   ],
+   "escala": [
+    {
+     "de": "B4",
+     "ate": "B4.fim",
+     "para": 1.12
+    },
+    {
+     "de": "C1",
+     "ate": "C1.fim",
+     "para": 1
+    }
+   ],
+   "mostrar": [
+    [
+     "A3.2",
+     "C2.fim"
+    ]
+   ]
+  },
+  "polos": {
    "tipo": "linha",
-   "de": "sol",
-   "para": "terra",
-   "cor": "#FFD166",
-   "largura": 2,
-   "opacidade": 0.5,
-   "aparece": "A2",
-   "fundo": true
+   "de": [
+    0,
+    -1.7,
+    0
+   ],
+   "para": [
+    0,
+    1.7,
+    0
+   ],
+   "cor": "#FFC857",
+   "largura": 0.03,
+   "tracejada": true,
+   "mostrar": [
+    [
+     "C1-0.1",
+     "C2.fim"
+    ]
+   ]
+  },
+  "inchaco": {
+   "tipo": "casca",
+   "em": "terra",
+   "raio": 1.16,
+   "cor": "#FFC857",
+   "opacidade": 0.28,
+   "esticar": 0.8,
+   "aponta": [
+    0,
+    100,
+    0
+   ],
+   "borda": true,
+   "mostrar": [
+    [
+     "C2-0.1",
+     "D1-0.1"
+    ]
+   ]
+  },
+  "sol": {
+   "corpo": "estrelaG",
+   "pos": [
+    -5,
+    0,
+    0
+   ],
+   "raio": 0.7,
+   "halo": 3,
+   "orbita": {
+    "em": "terra",
+    "raio": 3.0,
+    "periodo": 9,
+    "fase": 0.62,
+    "inclinacao": 40
+   },
+   "entra": "cresce",
+   "sai": "direto",
+   "fundo": true,
+   "mostrar": [
+    [
+     "D1-0.3",
+     "fim"
+    ]
+   ]
   }
  },
  "planos": [
   {
    "de": "inicio",
-   "novo": "o Sol de perto, brilhando",
-   "heroi": "sol",
+   "novo": "a Terra girando devagar, com um pino no equador",
+   "heroi": "terra",
+   "longo": true,
    "camera": {
     "de": {
      "enquadrar": [
-      "sol"
+      "terra"
      ],
-     "ocupa": 0.4,
-     "az": -20,
-     "el": 6
+     "ocupa": 0.52,
+     "az": 0,
+     "el": 8,
+     "mm": 35
     },
     "para": {
-     "az": -14
+     "az": -8
     },
     "curva": "meio"
-   }
-  },
-  {
-   "de": "A1:apagasse",
-   "novo": "o Sol apaga",
-   "heroi": "sol",
-   "camera": {
-    "de": {
-     "enquadrar": [
-      "sol"
-     ],
-     "ocupa": 0.42,
-     "az": -14,
-     "el": 6
-    },
-    "para": {
-     "ocupa": 0.36
-    },
-    "curva": "chega"
+   },
+   "compo": {
+    "x": 0.5,
+    "y": 0.31
    }
   },
   {
    "de": "A2",
-   "novo": "a Terra lá longe, ainda iluminada",
+   "novo": "a seta de velocidade sobre o equador",
    "heroi": "terra",
+   "longo": true,
+   "continuo": true,
+   "camera": {
+    "de": {
+     "enquadrar": [
+      "terra",
+      "seta"
+     ],
+     "ocupa": 0.56,
+     "az": -8,
+     "el": 4,
+     "mm": 35
+    },
+    "para": {
+     "az": 6
+    },
+    "curva": "meio"
+   },
+   "compo": {
+    "x": 0.5,
+    "y": 0.31
+   }
+  },
+  {
+   "de": "A3",
+   "novo": "o ar e o mar entram como cascas que giram junto",
+   "heroi": "terra",
+   "longo": true,
+   "continuo": true,
+   "camera": {
+    "de": {
+     "enquadrar": [
+      "terra"
+     ],
+     "ocupa": 0.58,
+     "az": 6,
+     "el": 6,
+     "mm": 32
+    },
+    "para": {
+     "az": 0
+    },
+    "curva": "meio"
+   },
+   "compo": {
+    "x": 0.5,
+    "y": 0.31
+   }
+  },
+  {
+   "de": "B1",
+   "novo": "a câmera recua e olha a Terra inteira",
+   "heroi": "terra",
+   "longo": true,
+   "continuo": true,
+   "camera": {
+    "de": {
+     "enquadrar": [
+      "terra"
+     ],
+     "ocupa": 0.46,
+     "az": 0,
+     "el": 8,
+     "mm": 32
+    },
+    "para": {
+     "az": -6
+    },
+    "curva": "suave"
+   },
+   "compo": {
+    "x": 0.5,
+    "y": 0.31
+   }
+  },
+  {
+   "de": "B2",
+   "novo": "o chão para; a seta continua",
+   "heroi": "terra",
+   "longo": true,
+   "continuo": true,
+   "camera": {
+    "de": {
+     "enquadrar": [
+      "terra",
+      "seta"
+     ],
+     "ocupa": 0.56,
+     "az": -6,
+     "el": 4,
+     "mm": 35
+    },
+    "para": {
+     "az": 4
+    },
+    "curva": "chega"
+   },
+   "compo": {
+    "x": 0.5,
+    "y": 0.31
+   }
+  },
+  {
+   "de": "B3",
+   "novo": "o vento passa do som",
+   "heroi": "terra",
+   "longo": true,
+   "continuo": true,
+   "camera": {
+    "de": {
+     "enquadrar": [
+      "terra",
+      "seta"
+     ],
+     "ocupa": 0.6,
+     "az": 4,
+     "el": 3,
+     "mm": 30
+    },
+    "para": {
+     "az": -4
+    },
+    "curva": "meio"
+   },
+   "compo": {
+    "x": 0.5,
+    "y": 0.31
+   }
+  },
+  {
+   "de": "B4",
+   "novo": "a água invade, crescendo sobre a terra",
+   "heroi": "terra",
+   "longo": true,
+   "continuo": true,
+   "camera": {
+    "de": {
+     "enquadrar": [
+      "terra"
+     ],
+     "ocupa": 0.6,
+     "az": -4,
+     "el": 5,
+     "mm": 30
+    },
+    "para": {
+     "az": 4
+    },
+    "curva": "meio"
+   },
+   "compo": {
+    "x": 0.5,
+    "y": 0.31
+   }
+  },
+  {
+   "de": "C1",
+   "novo": "a câmera sobe e a água vai para os polos",
+   "heroi": "terra",
+   "longo": true,
+   "continuo": true,
+   "camera": {
+    "de": {
+     "enquadrar": [
+      "terra",
+      "polos"
+     ],
+     "ocupa": 0.62,
+     "az": 4,
+     "el": 20,
+     "mm": 35
+    },
+    "para": {
+     "el": 4,
+     "az": 0
+    },
+    "curva": "suave"
+   },
+   "compo": {
+    "x": 0.5,
+    "y": 0.31
+   }
+  },
+  {
+   "de": "C2",
+   "novo": "o inchaço do equador, exagerado",
+   "heroi": "terra",
+   "longo": true,
+   "continuo": true,
+   "camera": {
+    "de": {
+     "enquadrar": [
+      "terra",
+      "inchaco"
+     ],
+     "ocupa": 0.58,
+     "az": 0,
+     "el": 2,
+     "mm": 35
+    },
+    "para": {
+     "az": -8
+    },
+    "curva": "meio"
+   },
+   "compo": {
+    "x": 0.5,
+    "y": 0.31
+   }
+  },
+  {
+   "de": "D1",
+   "novo": "o Sol dá uma volta em volta da Terra parada",
+   "heroi": "terra",
+   "longo": true,
+   "continuo": true,
+   "faixa": false,
+   "camera": {
+    "de": {
+     "enquadrar": [
+      "terra"
+     ],
+     "ocupa": 0.36,
+     "az": -8,
+     "el": 22,
+     "mm": 28
+    },
+    "para": {
+     "az": 10,
+     "el": 16,
+     "ocupa": 0.4
+    },
+    "curva": "meio"
+   },
+   "compo": {
+    "x": 0.5,
+    "y": 0.36
+   }
+  },
+  {
+   "de": "Q1",
+   "novo": "a câmera segue chegando; a pergunta fica no ar",
+   "heroi": "terra",
+   "longo": true,
+   "continuo": true,
+   "faixa": false,
    "camera": {
     "de": {
      "enquadrar": [
       "terra"
      ],
      "ocupa": 0.4,
-     "az": -60,
-     "el": 10
+     "az": 10,
+     "el": 16,
+     "mm": 30
     },
     "para": {
-     "az": -52
-    }
-   }
-  },
-  {
-   "de": "A2.2",
-   "novo": "a luz que ainda está no caminho",
-   "camera": {
-    "de": {
-     "enquadrar": [
-      "sol",
-      "terra"
-     ],
-     "ocupa": 0.6,
-     "az": 20,
-     "el": 40
-    },
-    "para": {
-     "az": 26,
-     "el": 36
-    }
-   }
-  },
-  {
-   "de": "Q1",
-   "novo": "a Terra, e a câmera continua chegando",
-   "heroi": "terra",
-   "camera": {
-    "de": {
-     "enquadrar": [
-      "terra"
-     ],
-     "ocupa": 0.34,
-     "az": -40,
-     "el": 12
-    },
-    "para": {
-     "ocupa": 0.42,
-     "az": -30
+     "az": 24,
+     "el": 10,
+     "ocupa": 0.46
     },
     "curva": "meio"
+   },
+   "compo": {
+    "x": 0.5,
+    "y": 0.36
    }
   }
  ],
  "eventos": [
   {
-   "tipo": "pulso",
-   "nome": "luz",
-   "em": "A2.2",
-   "ate": "A2.3",
-   "de": "sol",
-   "para": "terra",
-   "cor": "#fff0c8",
-   "tamanho": 0.35
+   "tipo": "tremor",
+   "em": "B2",
+   "forca": 0.25,
+   "dur": 0.8
   },
   {
    "tipo": "som",
-   "em": "A1:apagasse",
-   "nota": "grave"
+   "em": "B2",
+   "nota": "impacto",
+   "volume": -16
   },
   {
-   "tipo": "som",
-   "em": "Q1",
-   "nota": "plim"
+   "tipo": "onda",
+   "em": "B3:mais",
+   "alvo": "terra",
+   "raio0": 1.1,
+   "raio": 3,
+   "dur": 1.4,
+   "cor": "#BFE0FF"
   }
  ]
 }
