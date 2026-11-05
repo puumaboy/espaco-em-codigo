@@ -1,6 +1,6 @@
 # Conferência: E se a Terra parasse de girar? (curto)
 
-Análise de 311 quadros a 12 qps (25.9 s).
+Análise de 621 quadros a 24 qps (25.9 s).
 
 ## Frase → imagem
 
@@ -33,14 +33,14 @@ Análise de 311 quadros a 12 qps (25.9 s).
 
 | plano | de | dura | novo | herói | |
 |---|---|---|---|---|---|
-| p01 | 0.00 | 2.25 | a Terra girando devagar, com o pino no equador | terra 43% da altura | ok |
-| p02 | 2.25 | 5.25 | a seta de velocidade sobre o equador | terra 25% da altura | ok |
-| p03 | 7.50 | 2.50 | a Terra vai parando | terra 43% da altura | ok |
-| p04 | 10.00 | 1.92 | o chão para; o ar segue | terra 26% da altura | ok |
-| p05 | 11.92 | 1.92 | o vento passa do som | terra 24% da altura | ok |
+| p01 | 0.00 | 2.21 | a Terra girando devagar, com o pino no equador | terra 43% da altura | ok |
+| p02 | 2.21 | 5.25 | a seta de velocidade sobre o equador | terra 25% da altura | ok |
+| p03 | 7.46 | 2.54 | a Terra vai parando | terra 43% da altura | ok |
+| p04 | 10.00 | 1.88 | o chão para; o ar segue | terra 26% da altura | ok |
+| p05 | 11.88 | 1.96 | o vento passa do som | terra 25% da altura | ok |
 | p06 | 13.83 | 2.58 | a câmera sobe e a água vai para os polos | terra 43% da altura | ok |
 | p07 | 16.42 | 5.17 | o Sol dá uma volta em volta da Terra parada | terra 25% da altura | ok |
-| p08 | 21.58 | 4.33 | a câmera segue chegando; a pergunta fica no ar | terra 28% da altura | ok |
+| p08 | 21.58 | 4.29 | a câmera segue chegando; a pergunta fica no ar | terra 28% da altura | ok |
 
 ## Resultado
 
