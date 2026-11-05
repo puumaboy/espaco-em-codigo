@@ -1,0 +1,84 @@
+{
+ "titulo": "E se a Terra parasse de girar? (curto)",
+ "pergunta_mae": "E se a Terra parasse de girar agora?",
+ "fontes": [
+  "A Terra tem cerca de 40.075 km de circunferência no equador e dá uma volta em cerca de 24 horas, então quem está no equador anda a uns 1.670 km/h por causa do giro (NASA/USGS).",
+  "A velocidade do som no ar, ao nível do mar e a 15 °C, é de cerca de 1.235 km/h, então um vento de 1.670 km/h seria supersônico. Em outra latitude a velocidade do giro é menor (cai com o cosseno da latitude). É um experimento de pensamento: uma parada de repente seria fisicamente impossível, mas serve para mostrar o que o ar e a água fariam por inércia.",
+  "A Terra é achatada pelo giro: o raio no equador (6.378 km) é cerca de 21 km maior que o raio nos polos (6.357 km) (WGS 84). Os oceanos acompanham esse formato; sem giro, a água escorreria para os polos.",
+  "Se a Terra parasse de girar mas continuasse a orbitar o Sol, um dia solar passaria a durar um ano: uns seis meses de luz e uns seis meses de noite em cada lugar."
+ ],
+ "voz_guia": {
+  "mac": "Luciana",
+  "taxa": 190
+ },
+ "voz_final": {
+  "id": "",
+  "modelo": "eleven_multilingual_v2"
+ },
+ "falas": [
+  {
+   "id": "A1",
+   "pausa": 0.3,
+   "pedacos": [
+    "Você acha que está|terra,pino",
+    "*parado*?|terra,pino"
+   ]
+  },
+  {
+   "id": "A2",
+   "pausa": 0.35,
+   "pedacos": [
+    "Mas no equador|terra,pino",
+    "você anda a *mil seiscentos*|seta,pino",
+    "e setenta quilômetros|seta,pino",
+    "por hora.|seta,pino"
+   ]
+  },
+  {
+   "id": "B1",
+   "pausa": 0.4,
+   "pedacos": [
+    "Agora imagine|terra",
+    "a Terra *parando*.|terra,pino"
+   ]
+  },
+  {
+   "id": "B2",
+   "pausa": 0.35,
+   "pedacos": [
+    "O chão para.|terra,pino",
+    "O ar *não*:|ar,vento",
+    "o vento passa|ar,vento",
+    "do *som*.|ar,vento"
+   ]
+  },
+  {
+   "id": "C1",
+   "pausa": 0.35,
+   "pedacos": [
+    "E o mar|agua",
+    "escorre para|agua,polos",
+    "os *polos*.|agua,polos"
+   ]
+  },
+  {
+   "id": "D1",
+   "pausa": 0.4,
+   "pedacos": [
+    "E o dia?|sol,terra",
+    "Dura um *ano*:|sol,terra",
+    "seis meses de luz,|sol,terra",
+    "seis de *noite*.|terra"
+   ]
+  },
+  {
+   "id": "Q1",
+   "pausa": 0.2,
+   "pedacos": [
+    "Você aguentaria|terra",
+    "uma noite de|terra",
+    "seis meses?|terra"
+   ]
+  }
+ ]
+}

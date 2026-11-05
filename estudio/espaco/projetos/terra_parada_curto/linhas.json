@@ -1,0 +1,685 @@
+{
+ "titulo": "E se a Terra parasse de girar? (curto)",
+ "total": 23.822,
+ "linhas": [
+  {
+   "id": "A1",
+   "texto": "Você acha que está parado?",
+   "t0": 0.25,
+   "t1": 2.177,
+   "dur": 1.927,
+   "pausa": 0.3,
+   "arquivo": "voz/A1.wav",
+   "pedacos": [
+    {
+     "texto": "Você acha que está",
+     "bruto": "Você acha que está",
+     "ouro": [],
+     "ver": [
+      "terra",
+      "pino"
+     ],
+     "t0": 0.25,
+     "t1": 1.41,
+     "palavras": [
+      {
+       "t": "Você",
+       "t0": 0.25,
+       "t1": 0.678
+      },
+      {
+       "t": "acha",
+       "t0": 0.678,
+       "t1": 0.937
+      },
+      {
+       "t": "que",
+       "t0": 0.937,
+       "t1": 1.087
+      },
+      {
+       "t": "está",
+       "t0": 1.087,
+       "t1": 1.41
+      }
+     ]
+    },
+    {
+     "texto": "parado?",
+     "bruto": "*parado*?",
+     "ouro": [
+      "parado"
+     ],
+     "ver": [
+      "terra",
+      "pino"
+     ],
+     "t0": 1.41,
+     "t1": 1.845,
+     "palavras": [
+      {
+       "t": "parado?",
+       "t0": 1.41,
+       "t1": 1.845
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2",
+   "texto": "Mas no equador você anda a mil seiscentos e setenta quilômetros por hora.",
+   "t0": 2.477,
+   "t1": 7.121,
+   "dur": 4.644,
+   "pausa": 0.35,
+   "arquivo": "voz/A2.wav",
+   "pedacos": [
+    {
+     "texto": "Mas no equador",
+     "bruto": "Mas no equador",
+     "ouro": [],
+     "ver": [
+      "terra",
+      "pino"
+     ],
+     "t0": 2.477,
+     "t1": 3.447,
+     "palavras": [
+      {
+       "t": "Mas",
+       "t0": 2.477,
+       "t1": 2.851
+      },
+      {
+       "t": "no",
+       "t0": 2.851,
+       "t1": 2.939
+      },
+      {
+       "t": "equador",
+       "t0": 2.939,
+       "t1": 3.447
+      }
+     ]
+    },
+    {
+     "texto": "você anda a mil seiscentos",
+     "bruto": "você anda a *mil seiscentos*",
+     "ouro": [
+      "mil seiscentos"
+     ],
+     "ver": [
+      "seta",
+      "pino"
+     ],
+     "t0": 3.447,
+     "t1": 5.077,
+     "palavras": [
+      {
+       "t": "você",
+       "t0": 3.447,
+       "t1": 3.803
+      },
+      {
+       "t": "anda",
+       "t0": 3.803,
+       "t1": 4.073
+      },
+      {
+       "t": "a",
+       "t0": 4.073,
+       "t1": 4.218
+      },
+      {
+       "t": "mil",
+       "t0": 4.218,
+       "t1": 4.422
+      },
+      {
+       "t": "seiscentos",
+       "t0": 4.422,
+       "t1": 5.077
+      }
+     ]
+    },
+    {
+     "texto": "e setenta quilômetros",
+     "bruto": "e setenta quilômetros",
+     "ouro": [],
+     "ver": [
+      "seta",
+      "pino"
+     ],
+     "t0": 5.077,
+     "t1": 6.405,
+     "palavras": [
+      {
+       "t": "e",
+       "t0": 5.077,
+       "t1": 5.169
+      },
+      {
+       "t": "setenta",
+       "t0": 5.169,
+       "t1": 5.672
+      },
+      {
+       "t": "quilômetros",
+       "t0": 5.672,
+       "t1": 6.405
+      }
+     ]
+    },
+    {
+     "texto": "por hora.",
+     "bruto": "por hora.",
+     "ouro": [],
+     "ver": [
+      "seta",
+      "pino"
+     ],
+     "t0": 6.405,
+     "t1": 6.789,
+     "palavras": [
+      {
+       "t": "por",
+       "t0": 6.405,
+       "t1": 6.563
+      },
+      {
+       "t": "hora.",
+       "t0": 6.563,
+       "t1": 6.789
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B1",
+   "texto": "Agora imagine a Terra parando.",
+   "t0": 7.471,
+   "t1": 9.711,
+   "dur": 2.24,
+   "pausa": 0.4,
+   "arquivo": "voz/B1.wav",
+   "pedacos": [
+    {
+     "texto": "Agora imagine",
+     "bruto": "Agora imagine",
+     "ouro": [],
+     "ver": [
+      "terra"
+     ],
+     "t0": 7.471,
+     "t1": 8.363,
+     "palavras": [
+      {
+       "t": "Agora",
+       "t0": 7.471,
+       "t1": 7.916
+      },
+      {
+       "t": "imagine",
+       "t0": 7.916,
+       "t1": 8.363
+      }
+     ]
+    },
+    {
+     "texto": "a Terra parando.",
+     "bruto": "a Terra *parando*.",
+     "ouro": [
+      "parando"
+     ],
+     "ver": [
+      "terra",
+      "pino"
+     ],
+     "t0": 8.363,
+     "t1": 9.379,
+     "palavras": [
+      {
+       "t": "a",
+       "t0": 8.363,
+       "t1": 8.608
+      },
+      {
+       "t": "Terra",
+       "t0": 8.608,
+       "t1": 8.84
+      },
+      {
+       "t": "parando.",
+       "t0": 8.84,
+       "t1": 9.379
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2",
+   "texto": "O chão para. O ar não: o vento passa do som.",
+   "t0": 10.111,
+   "t1": 13.603,
+   "dur": 3.492,
+   "pausa": 0.35,
+   "arquivo": "voz/B2.wav",
+   "pedacos": [
+    {
+     "texto": "O chão para.",
+     "bruto": "O chão para.",
+     "ouro": [],
+     "ver": [
+      "terra",
+      "pino"
+     ],
+     "t0": 10.111,
+     "t1": 10.79,
+     "palavras": [
+      {
+       "t": "O",
+       "t0": 10.111,
+       "t1": 10.304
+      },
+      {
+       "t": "chão",
+       "t0": 10.304,
+       "t1": 10.537
+      },
+      {
+       "t": "para.",
+       "t0": 10.537,
+       "t1": 10.79
+      }
+     ]
+    },
+    {
+     "texto": "O ar não:",
+     "bruto": "O ar *não*:",
+     "ouro": [
+      "não"
+     ],
+     "ver": [
+      "ar",
+      "vento"
+     ],
+     "t0": 10.79,
+     "t1": 11.663,
+     "palavras": [
+      {
+       "t": "O",
+       "t0": 10.79,
+       "t1": 11.318
+      },
+      {
+       "t": "ar",
+       "t0": 11.318,
+       "t1": 11.429
+      },
+      {
+       "t": "não:",
+       "t0": 11.429,
+       "t1": 11.663
+      }
+     ]
+    },
+    {
+     "texto": "o vento passa",
+     "bruto": "o vento passa",
+     "ouro": [],
+     "ver": [
+      "ar",
+      "vento"
+     ],
+     "t0": 11.663,
+     "t1": 12.782,
+     "palavras": [
+      {
+       "t": "o",
+       "t0": 11.663,
+       "t1": 12.108
+      },
+      {
+       "t": "vento",
+       "t0": 12.108,
+       "t1": 12.465
+      },
+      {
+       "t": "passa",
+       "t0": 12.465,
+       "t1": 12.782
+      }
+     ]
+    },
+    {
+     "texto": "do som.",
+     "bruto": "do *som*.",
+     "ouro": [
+      "som"
+     ],
+     "ver": [
+      "ar",
+      "vento"
+     ],
+     "t0": 12.782,
+     "t1": 13.269,
+     "palavras": [
+      {
+       "t": "do",
+       "t0": 12.782,
+       "t1": 12.935
+      },
+      {
+       "t": "som.",
+       "t0": 12.935,
+       "t1": 13.269
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1",
+   "texto": "E o mar escorre para os polos.",
+   "t0": 13.953,
+   "t1": 15.948,
+   "dur": 1.995,
+   "pausa": 0.35,
+   "arquivo": "voz/C1.wav",
+   "pedacos": [
+    {
+     "texto": "E o mar",
+     "bruto": "E o mar",
+     "ouro": [],
+     "ver": [
+      "agua"
+     ],
+     "t0": 13.953,
+     "t1": 14.406,
+     "palavras": [
+      {
+       "t": "E",
+       "t0": 13.953,
+       "t1": 14.133
+      },
+      {
+       "t": "o",
+       "t0": 14.133,
+       "t1": 14.254
+      },
+      {
+       "t": "mar",
+       "t0": 14.254,
+       "t1": 14.406
+      }
+     ]
+    },
+    {
+     "texto": "escorre para",
+     "bruto": "escorre para",
+     "ouro": [],
+     "ver": [
+      "agua",
+      "polos"
+     ],
+     "t0": 14.406,
+     "t1": 15.113,
+     "palavras": [
+      {
+       "t": "escorre",
+       "t0": 14.406,
+       "t1": 14.829
+      },
+      {
+       "t": "para",
+       "t0": 14.829,
+       "t1": 15.113
+      }
+     ]
+    },
+    {
+     "texto": "os polos.",
+     "bruto": "os *polos*.",
+     "ouro": [
+      "polos"
+     ],
+     "ver": [
+      "agua",
+      "polos"
+     ],
+     "t0": 15.113,
+     "t1": 15.616,
+     "palavras": [
+      {
+       "t": "os",
+       "t0": 15.113,
+       "t1": 15.313
+      },
+      {
+       "t": "polos.",
+       "t0": 15.313,
+       "t1": 15.616
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D1",
+   "texto": "E o dia? Dura um ano: seis meses de luz, seis de noite.",
+   "t0": 16.298,
+   "t1": 20.402,
+   "dur": 4.104,
+   "pausa": 0.4,
+   "arquivo": "voz/D1.wav",
+   "pedacos": [
+    {
+     "texto": "E o dia?",
+     "bruto": "E o dia?",
+     "ouro": [],
+     "ver": [
+      "sol",
+      "terra"
+     ],
+     "t0": 16.298,
+     "t1": 16.749,
+     "palavras": [
+      {
+       "t": "E",
+       "t0": 16.298,
+       "t1": 16.478
+      },
+      {
+       "t": "o",
+       "t0": 16.478,
+       "t1": 16.599
+      },
+      {
+       "t": "dia?",
+       "t0": 16.599,
+       "t1": 16.749
+      }
+     ]
+    },
+    {
+     "texto": "Dura um ano:",
+     "bruto": "Dura um *ano*:",
+     "ouro": [
+      "ano"
+     ],
+     "ver": [
+      "sol",
+      "terra"
+     ],
+     "t0": 16.749,
+     "t1": 17.704,
+     "palavras": [
+      {
+       "t": "Dura",
+       "t0": 16.749,
+       "t1": 17.369
+      },
+      {
+       "t": "um",
+       "t0": 17.369,
+       "t1": 17.555
+      },
+      {
+       "t": "ano:",
+       "t0": 17.555,
+       "t1": 17.704
+      }
+     ]
+    },
+    {
+     "texto": "seis meses de luz,",
+     "bruto": "seis meses de luz,",
+     "ouro": [],
+     "ver": [
+      "sol",
+      "terra"
+     ],
+     "t0": 17.704,
+     "t1": 19.044,
+     "palavras": [
+      {
+       "t": "seis",
+       "t0": 17.704,
+       "t1": 18.355
+      },
+      {
+       "t": "meses",
+       "t0": 18.355,
+       "t1": 18.7
+      },
+      {
+       "t": "de",
+       "t0": 18.7,
+       "t1": 18.803
+      },
+      {
+       "t": "luz,",
+       "t0": 18.803,
+       "t1": 19.044
+      }
+     ]
+    },
+    {
+     "texto": "seis de noite.",
+     "bruto": "seis de *noite*.",
+     "ouro": [
+      "noite"
+     ],
+     "ver": [
+      "terra"
+     ],
+     "t0": 19.044,
+     "t1": 20.058,
+     "palavras": [
+      {
+       "t": "seis",
+       "t0": 19.044,
+       "t1": 19.61
+      },
+      {
+       "t": "de",
+       "t0": 19.61,
+       "t1": 19.737
+      },
+      {
+       "t": "noite.",
+       "t0": 19.737,
+       "t1": 20.058
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Q1",
+   "texto": "Você aguentaria uma noite de seis meses?",
+   "t0": 20.802,
+   "t1": 23.622,
+   "dur": 2.821,
+   "pausa": 0.2,
+   "arquivo": "voz/Q1.wav",
+   "pedacos": [
+    {
+     "texto": "Você aguentaria",
+     "bruto": "Você aguentaria",
+     "ouro": [],
+     "ver": [
+      "terra"
+     ],
+     "t0": 20.802,
+     "t1": 21.96,
+     "palavras": [
+      {
+       "t": "Você",
+       "t0": 20.802,
+       "t1": 21.23
+      },
+      {
+       "t": "aguentaria",
+       "t0": 21.23,
+       "t1": 21.96
+      }
+     ]
+    },
+    {
+     "texto": "uma noite de",
+     "bruto": "uma noite de",
+     "ouro": [],
+     "ver": [
+      "terra"
+     ],
+     "t0": 21.96,
+     "t1": 22.644,
+     "palavras": [
+      {
+       "t": "uma",
+       "t0": 21.96,
+       "t1": 22.146
+      },
+      {
+       "t": "noite",
+       "t0": 22.146,
+       "t1": 22.493
+      },
+      {
+       "t": "de",
+       "t0": 22.493,
+       "t1": 22.644
+      }
+     ]
+    },
+    {
+     "texto": "seis meses?",
+     "bruto": "seis meses?",
+     "ouro": [],
+     "ver": [
+      "terra"
+     ],
+     "t0": 22.644,
+     "t1": 23.29,
+     "palavras": [
+      {
+       "t": "seis",
+       "t0": 22.644,
+       "t1": 22.953
+      },
+      {
+       "t": "meses?",
+       "t0": 22.953,
+       "t1": 23.29
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "voz": "guia"
+}
